@@ -1,7 +1,7 @@
 ambiNilla v.1
 
 Notes:
-This patch is derived from this ambisonic panner: https://github.com/cpmpercussion/SimpleAmbisonics/ I streamlined the workflow to support ease of transferring new coefficients to PD, and made a small math update.
+This patch is derived from this ambisonic panner: https://github.com/cpmpercussion/SimpleAmbisonics/ I streamlined the workflow to support ease of transferring new coefficients to PD, and made a small math update. Functions for elevation as well.
 
 Math Ref:
 http://www.angelofarina.it/Aurora/HOA_ACN_N3D_formulas.htm
