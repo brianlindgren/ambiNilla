@@ -1,0 +1,16 @@
+#N canvas 518 279 565 600 12;
+#X text 49 18 \$1 = unique parent # \, \$2 = speaker # \, \$3 = ambi channel;
+#X obj 304 58 r \$1-speaker-\$2;
+#X obj 304 129 route \$3;
+#X obj 227 169 *~;
+#X obj 227 193 outlet~;
+#X floatatom 305 156 8 0 0 0 - - - 0;
+#X obj 304 82 route list;
+#X obj 227 129 r~ ambi\$3;
+#X text 368 156 coefficient;
+#X connect 1 0 6 0;
+#X connect 2 0 3 1;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 6 0 2 0;
+#X connect 7 0 3 0;
