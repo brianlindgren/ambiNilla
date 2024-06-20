@@ -24,34 +24,34 @@ speakers = [
     [(2 * np.pi / 4) - (np.pi / 8), np.pi / 4]
 ]
 
-# Define functions to calculate components of speaker directions according to N3D convention
+# Define functions to calculate components of speaker directions
 def w_i(azi, ele):
     return 1
 
 def y_i(azi, ele):
-    return np.sqrt(3) * np.cos(azi) * np.sin(ele)
+    return np.sqrt(3) * np.cos(ele) * np.sin(azi)
 
 def z_i(azi, ele):
-    return np.sqrt(3) * np.sin(azi)
+    return np.sqrt(3) * np.sin(ele)
 
 def x_i(azi, ele):
     return np.sqrt(3) * np.cos(azi) * np.cos(ele)
 
 # Functions for 2nd order components
 def v_i(azi, ele):
-    return (np.sqrt(15) / 2) * np.cos(azi)**2 * np.sin(2 * ele)
+    return (np.sqrt(15) / 2) * np.cos(ele)**2 * np.sin(2 * azi)
 
 def t_i(azi, ele):
-    return (np.sqrt(15) / 2) * np.sin(2 * azi) * np.sin(ele)
+    return (np.sqrt(15) / 2) * np.sin(2 * ele) * np.sin(azi)
 
 def r_i(azi, ele):
     return (np.sqrt(5) / 2) * (3 * np.sin(ele)**2 - 1)
 
 def s_i(azi, ele):
-    return (np.sqrt(15) / 2) * np.sin(2 * azi) * np.cos(ele)
+    return (np.sqrt(15) / 2) * np.sin(2 * ele) * np.cos(azi)
 
 def u_i(azi, ele):
-    return (np.sqrt(15) / 2) * np.cos(azi)**2 * np.cos(2 * ele)
+    return (np.sqrt(15) / 2) * np.cos(ele)**2 * np.cos(2 * azi)
 
 # Calculate coefficients for 1st and 2nd order ambisonics
 K = []
