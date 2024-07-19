@@ -17,10 +17,10 @@ def w_i(azi, ele):
     return 1
 
 def y_i(azi, ele):
-    return np.sqrt(3) * np.cos(azi) * np.sin(ele)
+    return np.sqrt(3) * np.cos(ele) * np.sin(azi)
 
 def z_i(azi, ele):
-    return np.sqrt(3) * np.sin(azi)
+    return np.sqrt(3) * np.sin(ele)
 
 def x_i(azi, ele):
     return np.sqrt(3) * np.cos(azi) * np.cos(ele)
