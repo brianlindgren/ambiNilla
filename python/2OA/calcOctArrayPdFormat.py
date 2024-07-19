@@ -49,7 +49,7 @@ def u_i(azi, ele):
 K = []
 for l in speakers:
     K.append([
-        w_i(l[0], l[1]), x_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1]),
+        w_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1]), x_i(l[0], l[1]),
         v_i(l[0], l[1]), t_i(l[0], l[1]), r_i(l[0], l[1]), s_i(l[0], l[1]), u_i(l[0], l[1])
     ])
 

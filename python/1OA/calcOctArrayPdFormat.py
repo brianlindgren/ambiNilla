@@ -29,11 +29,10 @@ def z_i(azi, ele):
 def x_i(azi, ele):
     return np.sqrt(3) * np.cos(azi) * np.cos(ele)
 
-
 # Calculate coefficients
 K = []
 for l in speakers:
-    K.append([w_i(l[0], l[1]), x_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1])])
+    K.append([w_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1]), x_i(l[0], l[1])])
 
 # Find pseudo-inverse matrix
 K = np.matrix(K)

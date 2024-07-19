@@ -12,7 +12,7 @@ speakers = [
     [7 * np.pi / 4, 0]  # right (315 degrees, equivalent to -45 degrees)
 ]
 
-# Define functions to calculate components of speaker directions
+# Define functions to calculate components of speaker directions according to N3D convention
 def w_i(azi, ele):
     return 1
 
@@ -28,7 +28,7 @@ def x_i(azi, ele):
 # Calculate coefficients
 K = []
 for l in speakers:
-    K.append([w_i(l[0], l[1]), x_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1])])
+    K.append([w_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1]), x_i(l[0], l[1])])
 
 # Find pseudo-inverse matrix
 K = np.matrix(K)
