@@ -1,4 +1,9 @@
-# ambiNilla v.2 #
+# ambiNilla v.3 #
+
+v.3 - 
+3nd order ambisonic added
+can switch between 0, 1, 2, and 3rd orders
+bug fixes
 
 v.2 - 
 2nd order ambisonic

@@ -47,7 +47,7 @@ def u_i(azi, ele):
 
 # Functions for 3rd order components
 def q_i(azi, ele):
-    return np.sqrt(35 / 8) * np.cos(azi)**3 * np.sin(ele * 3)
+    return np.sqrt(35 / 8) * np.cos(ele)**3 * np.sin(azi * 3)
 
 def o_i(azi, ele):
     return (np.sqrt(105) / 2) * np.sin(ele) * np.cos(ele)**2 * np.sin(2 * azi)
