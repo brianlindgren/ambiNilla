@@ -1,4 +1,13 @@
-# ambiNilla v.1 #
+# ambiNilla v.2 #
+
+v.2 - 
+2nd order ambisonic
+can write raw ambisonic (undecoded) output to file
+
+v.1 - 
+1st order ambisonic
+
+changelog:
 
 ## Notes: ##
 The encoder is derived from this ambisonic panner: [https://github.com/cpmpercussion/SimpleAmbisonics/](https://github.com/cpmpercussion/SimpleAmbisonics/) I streamlined the workflow to support ease of transferring new coefficients to PD, and made a small math update. Functions for elevation as well.

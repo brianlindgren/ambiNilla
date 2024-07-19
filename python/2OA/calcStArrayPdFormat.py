@@ -41,11 +41,11 @@ def s_i(azi, ele):
 def u_i(azi, ele):
     return (np.sqrt(15) / 2) * np.cos(ele)**2 * np.cos(2 * azi)
 
-# Calculate coefficients
+# Calculate coefficients for 1st and 2nd order ambisonics
 K = []
 for l in speakers:
     K.append([
-        w_i(l[0], l[1]), x_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1]),
+        w_i(l[0], l[1]), y_i(l[0], l[1]), z_i(l[0], l[1]), x_i(l[0], l[1]),
         v_i(l[0], l[1]), t_i(l[0], l[1]), r_i(l[0], l[1]), s_i(l[0], l[1]), u_i(l[0], l[1])
     ])
 

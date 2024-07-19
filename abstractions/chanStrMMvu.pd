@@ -1,4 +1,4 @@
-#N canvas 956 291 649 577 12;
+#N canvas 864 357 649 577 12;
 #X obj 32 270 *~;
 #X obj 220 18 loadbang;
 #X floatatom 222 82 5 0 0 0 - - - 0;
@@ -6,7 +6,7 @@
 #X obj 171 107 r chanConfig;
 #X floatatom 171 128 5 0 0 0 - - - 0;
 #X obj 170 177 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
-#X obj 201 230 switch~;
+#X obj 170 244 switch~;
 #X obj 170 156 >=;
 #X obj 32 301 dac~ \$1;
 #X obj 81 242 r mcLevel;
@@ -52,8 +52,8 @@
 #X connect 18 0 19 0;
 #X connect 19 0 10 0;
 #X restore 173 326 pd vu;
-#X obj 165 200 t b f;
 #X msg 240 363 -100 -100;
+#X obj 165 200 t f b;
 #X connect 0 0 9 0;
 #X connect 0 0 16 0;
 #X connect 1 0 12 0;
@@ -61,7 +61,7 @@
 #X connect 3 0 12 0;
 #X connect 4 0 5 0;
 #X connect 5 0 8 0;
-#X connect 6 0 17 0;
+#X connect 6 0 18 0;
 #X connect 8 0 6 0;
 #X connect 10 0 0 1;
 #X connect 12 0 2 0;
@@ -69,6 +69,6 @@
 #X connect 15 0 14 0;
 #X connect 16 0 15 0;
 #X connect 16 1 15 1;
-#X connect 17 0 18 0;
-#X connect 17 1 7 0;
-#X connect 18 0 14 0;
+#X connect 17 0 14 0;
+#X connect 18 0 7 0;
+#X connect 18 1 17 0;
