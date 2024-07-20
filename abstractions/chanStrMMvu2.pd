@@ -1,10 +1,8 @@
 #N canvas 149 240 656 871 12;
 #X obj 32 270 *~;
-#X obj 93 336 outlet~;
+#X obj 31 333 outlet~;
 #X obj 81 242 r mcLevel;
-#X obj 21 337 dac~ \$1;
 #X obj 30 204 r~ ambi\$2;
 #X connect 0 0 1 0;
-#X connect 0 0 3 0;
 #X connect 2 0 0 1;
-#X connect 4 0 0 0;
+#X connect 3 0 0 0;
