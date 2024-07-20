@@ -15,15 +15,19 @@ v.1 -
 changelog:
 
 ## Notes: ##
-The encoder is derived from this ambisonic panner: [https://github.com/cpmpercussion/SimpleAmbisonics/](https://github.com/cpmpercussion/SimpleAmbisonics/) I streamlined the workflow to support ease of transferring new coefficients to PD, and made a small math update. Functions for elevation as well.
+The encoder is derived from this ambisonic panner: [https://github.com/cpmpercussion/SimpleAmbisonics/](https://github.com/cpmpercussion/SimpleAmbisonics/) I streamlined the workflow to support ease of transferring new coefficients to PD, and some math updates. Functions for elevation as well.
 
 ## Math Ref: ##
 [http://www.angelofarina.it/Aurora/HOA_ACN_N3D_formulas.htm](http://www.angelofarina.it/Aurora/HOA_ACN_N3D_formulas.htm)
 
 ## Instructions: ##
 
+- open main.pd and and explore
+
+or:
+
 - Input speaker coordinates in the python script. Generate coefficient list.
-- Name the list (no spaces) and place it in the 'ambiCoefficients' folder.
+- Place it in the 'ambiCoefficients' folder.
 - Instantiate an ```ambiDec``` abstraction with the first argument as the list name and the second as the number of channels.
 - Make sure the channel selector is set to the correct output or add a new channel count for your setup (or delete and remove the switch if not needed).
 - Create as many ```catch~ speaker$1``` as needed and route to ```dac~``` 's (16 are included in the example patch).
