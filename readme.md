@@ -1,7 +1,7 @@
 # ambiNilla v.3 #
 
 v.3 - 
-3nd order ambisonic added
+3rd order ambisonic added
 can switch between 0, 1, 2, and 3rd orders
 bug fixes
 
