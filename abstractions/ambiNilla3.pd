@@ -21,7 +21,7 @@
 #X obj 145 188 r ambiOrder;
 #X obj 145 249 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 134 292 switch~;
-#X obj 64 268 switchramp;
+#X obj 64 268 switchRamp;
 #X obj 145 228 >= 2;
 #X floatatom 105 193 5 0 0 0 - - - 0;
 #X connect 1 0 2 0;
@@ -57,7 +57,7 @@
 #X obj 140 202 r ambiOrder;
 #X obj 140 263 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 129 306 switch~;
-#X obj 59 282 switchramp;
+#X obj 59 282 switchRamp;
 #X obj 140 242 >= 2;
 #X floatatom 103 199 5 0 0 0 - - - 0;
 #X floatatom 79 108 5 0 0 0 - - - 0;
@@ -98,7 +98,7 @@
 #X obj 160 222 r ambiOrder;
 #X obj 160 283 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 149 326 switch~;
-#X obj 79 302 switchramp;
+#X obj 79 302 switchRamp;
 #X obj 160 262 >= 2;
 #X connect 0 0 6 1;
 #X connect 0 0 8 0;
@@ -136,7 +136,7 @@
 #X obj 148 227 r ambiOrder;
 #X obj 148 288 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 137 331 switch~;
-#X obj 67 307 switchramp;
+#X obj 67 307 switchRamp;
 #X obj 148 267 >= 2;
 #X connect 0 0 5 1;
 #X connect 0 0 9 0;
@@ -172,7 +172,7 @@
 #X obj 141 209 r ambiOrder;
 #X obj 141 270 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 130 313 switch~;
-#X obj 60 289 switchramp;
+#X obj 60 289 switchRamp;
 #X obj 141 249 >= 2;
 #X floatatom 84 102 5 0 0 0 - - - 0;
 #X floatatom 195 123 5 0 0 0 - - - 0;
@@ -217,7 +217,7 @@
 #X obj 132 221 r ambiOrder;
 #X obj 132 282 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 121 325 switch~;
-#X obj 51 301 switchramp;
+#X obj 51 301 switchRamp;
 #X obj 132 261 >= 1;
 #X floatatom 78 249 5 0 0 0 - - - 0;
 #X connect 0 0 6 1;
@@ -252,7 +252,7 @@
 #X obj 156 233 r ambiOrder;
 #X obj 156 294 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 145 337 switch~;
-#X obj 75 313 switchramp;
+#X obj 75 313 switchRamp;
 #X obj 156 273 >= 1;
 #X floatatom 113 241 5 0 0 0 - - - 0;
 #X obj 116 207 *;
@@ -290,7 +290,7 @@
 #X obj 130 195 r ambiOrder;
 #X obj 130 256 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 119 299 switch~;
-#X obj 49 275 switchramp;
+#X obj 49 275 switchRamp;
 #X obj 130 235 >= 1;
 #X floatatom 82 177 5 0 0 0 - - - 0;
 #X connect 0 0 3 1;
@@ -464,7 +464,7 @@
 #X obj 161 320 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 161 299 >= 3;
 #X obj 122 362 switch~;
-#X obj 52 338 switchramp;
+#X obj 52 338 switchRamp;
 #X floatatom 93 257 8 0 0 0 - - - 0;
 #X floatatom 68 141 5 0 0 0 - - - 0;
 #X floatatom 152 168 5 0 0 0 - - - 0;
@@ -505,7 +505,7 @@
 #X obj 133 455 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 133 434 >= 3;
 #X obj 122 498 switch~;
-#X obj 52 474 switchramp;
+#X obj 52 474 switchRamp;
 #X floatatom 89 114 5 0 0 0 - - - 0;
 #X floatatom 142 177 5 0 0 0 - - - 0;
 #X floatatom 144 267 5 0 0 0 - - - 0;
@@ -554,7 +554,7 @@
 #X obj 135 461 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 135 440 >= 3;
 #X obj 124 504 switch~;
-#X obj 54 480 switchramp;
+#X obj 54 480 switchRamp;
 #X floatatom 144 136 5 0 0 0 - - - 0;
 #X floatatom 171 176 7 0 0 0 - - - 0;
 #X floatatom 185 232 5 0 0 0 - - - 0;
@@ -602,7 +602,7 @@
 #X obj 133 335 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 133 314 >= 3;
 #X obj 122 378 switch~;
-#X obj 52 354 switchramp;
+#X obj 52 354 switchRamp;
 #X floatatom 75 92 5 0 0 0 - - - 0;
 #X floatatom 184 169 5 0 0 0 - - - 0;
 #X floatatom 158 218 5 0 0 0 - - - 0;
@@ -647,7 +647,7 @@
 #X obj 137 396 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 137 375 >= 3;
 #X obj 126 439 switch~;
-#X obj 56 415 switchramp;
+#X obj 56 415 switchRamp;
 #X floatatom 80 92 5 0 0 0 - - - 0;
 #X floatatom 177 174 5 0 0 0 - - - 0;
 #X floatatom 179 235 5 0 0 0 - - - 0;
@@ -696,7 +696,7 @@
 #X obj 152 467 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 152 446 >= 3;
 #X obj 141 510 switch~;
-#X obj 71 486 switchramp;
+#X obj 71 486 switchRamp;
 #X floatatom 124 133 5 0 0 0 - - - 0;
 #X floatatom 178 181 5 0 0 0 - - - 0;
 #X floatatom 189 266 5 0 0 0 - - - 0;
@@ -740,7 +740,7 @@
 #X obj 133 319 tgl 16 0 empty empty empty 0 -8 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 133 298 >= 3;
 #X obj 122 362 switch~;
-#X obj 52 338 switchramp;
+#X obj 52 338 switchRamp;
 #X floatatom 101 131 5 0 0 0 - - - 0;
 #X floatatom 159 182 5 0 0 0 - - - 0;
 #X floatatom 158 234 5 0 0 0 - - - 0;
