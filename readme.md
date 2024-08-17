@@ -1,4 +1,7 @@
-# ambiNilla v.3 #
+# ambiNilla v.3.5 #
+
+v.3.5 - 
+signal rate version (ambiNilla3~) added
 
 v.3 - 
 3rd order ambisonic added
@@ -29,4 +32,4 @@ or:
 - Instantiate an ```ambiDec``` abstraction with the first argument as the list name and the second as the number of channels.
 - Make sure the channel selector is set to the correct output or add a new channel count for your setup (or delete and remove the switch if not needed).
 - Create as many ```catch~ speaker$1``` as needed and route to ```dac~``` 's (16 are included in the example patch).
-- Instantiate one or more 'ambiPanner' abstractions. Connect signal input and set the proper azimuth and elevation (in radians).
+- Instantiate one or more ```ambiNilla3``` or ```ambiNilla3~``` abstractions. Connect signal input and set the proper azimuth and elevation.
