@@ -1,5 +1,9 @@
 # ambiNilla v.3.5 #
 
+
+v4 - 
+added option for N3D or SN3D normalization
+
 v.3.5 - 
 signal rate version (ambiNilla3~) added
 

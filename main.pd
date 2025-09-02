@@ -1,4 +1,4 @@
-#N canvas 382 192 1208 852 12;
+#N canvas 382 170 1208 852 12;
 #X declare -path abstractions;
 #X obj 122 129 *~;
 #X obj 196 72 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 0.3;
@@ -349,7 +349,7 @@
 #X text 28 659 decoders ->;
 #X obj 463 607 tgl 35 0 record empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 122 95 noise~;
-#N canvas 1290 567 758 557 bypassDecoder1 0;
+#N canvas 922 465 758 557 bypassDecoder1 0;
 #X msg 12 191 start;
 #X msg 86 122 stop;
 #X msg 43 150 open -bytes 3 EV.wav, f 11;
@@ -588,7 +588,7 @@
 #X text 305 229 FR;
 #X text 270 271 RL;
 #X text 307 270 RR;
-#X text 530 749 ambiNilla v.3.6 (c) 2025 Brian Lindgren;
+#X text 530 749 ambiNilla v.4 (c) 2025 Brian Lindgren;
 #X connect 0 0 36 0;
 #X connect 1 0 0 1;
 #X connect 2 0 39 0;
