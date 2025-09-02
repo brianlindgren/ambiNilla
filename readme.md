@@ -1,7 +1,6 @@
-# ambiNilla v.3.5 #
+# ambiNilla v.4 #
 
-
-v4 - 
+v4.0 -
 added option for N3D or SN3D normalization
 
 v.3.5 - 
