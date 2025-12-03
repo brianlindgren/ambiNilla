@@ -3,19 +3,19 @@
 v4.0 -
 added option for N3D or SN3D normalization
 
-v.3.5 - 
+v3.5 - 
 signal rate version (ambiNilla3~) added
 
-v.3 - 
+v3 - 
 3rd order ambisonic added
 can switch between 0, 1, 2, and 3rd orders
 bug fixes
 
-v.2 - 
+v2 - 
 2nd order ambisonic
 can write raw ambisonic (undecoded) output to file
 
-v.1 - 
+v1 - 
 1st order ambisonic
 
 ## Notes: ##
